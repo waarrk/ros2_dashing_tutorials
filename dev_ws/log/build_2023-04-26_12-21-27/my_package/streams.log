@@ -1,0 +1,20 @@
+[0.235s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package -- -j4 -l4
+[0.458s] [100%] Built target my_node
+[0.516s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package -- -j4 -l4
+[0.705s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package --target install -- -j4 -l4
+[0.918s] [100%] Built target my_node
+[0.996s] [36mInstall the project...[0m
+[1.032s] -- Install configuration: ""
+[1.033s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/lib/my_package/my_node
+[1.034s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.035s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.036s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.037s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/environment/path.sh
+[1.037s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/local_setup.bash
+[1.038s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/local_setup.sh
+[1.038s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/local_setup.zsh
+[1.039s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.040s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.040s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.041s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/package.xml
+[1.059s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package --target install -- -j4 -l4

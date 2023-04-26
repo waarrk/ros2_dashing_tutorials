@@ -1,0 +1,53 @@
+[0.257s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package
+[0.506s] -- The C compiler identification is GNU 7.5.0
+[0.730s] -- The CXX compiler identification is GNU 7.5.0
+[0.753s] -- Check for working C compiler: /usr/bin/cc
+[1.035s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.044s] -- Detecting C compiler ABI info
+[1.368s] -- Detecting C compiler ABI info - done
+[1.389s] -- Detecting C compile features
+[2.200s] -- Detecting C compile features - done
+[2.211s] -- Check for working CXX compiler: /usr/bin/c++
+[2.503s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.506s] -- Detecting CXX compiler ABI info
+[2.801s] -- Detecting CXX compiler ABI info - done
+[2.820s] -- Detecting CXX compile features
+[4.282s] -- Detecting CXX compile features - done
+[4.283s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[4.402s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[4.404s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.775s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[6.367s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[6.372s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.372s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src/my_package/include>
+[6.376s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.380s] -- Added test 'lint_cmake' to check CMake code style
+[6.384s] -- Added test 'uncrustify' to check C / C++ code style
+[6.387s] -- Added test 'xmllint' to check XML markup files
+[6.396s] -- Configuring done
+[6.408s] -- Generating done
+[6.413s] -- Build files have been written to: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package
+[6.424s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package
+[6.434s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package -- -j4 -l4
+[6.588s] [35m[1mScanning dependencies of target my_node[0m
+[6.632s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[6.739s] [100%] [32m[1mLinking CXX executable my_node[0m
+[6.894s] [100%] Built target my_node
+[6.938s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package -- -j4 -l4
+[7.048s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package --target install -- -j4 -l4
+[7.245s] [100%] Built target my_node
+[7.318s] [36mInstall the project...[0m
+[7.353s] -- Install configuration: ""
+[7.353s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/lib/my_package/my_node
+[7.354s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[7.355s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[7.356s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[7.356s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/environment/path.sh
+[7.357s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/local_setup.bash
+[7.358s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/local_setup.sh
+[7.358s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/local_setup.zsh
+[7.359s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[7.359s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[7.360s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[7.360s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package/share/my_package/package.xml
+[7.389s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/my_package --target install -- -j4 -l4
