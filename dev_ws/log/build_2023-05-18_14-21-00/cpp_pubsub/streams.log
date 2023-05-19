@@ -1,0 +1,68 @@
+[0.110s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub
+[0.328s] -- The C compiler identification is GNU 7.5.0
+[0.527s] -- The CXX compiler identification is GNU 7.5.0
+[0.539s] -- Check for working C compiler: /usr/bin/cc
+[0.785s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.787s] -- Detecting C compiler ABI info
+[1.032s] -- Detecting C compiler ABI info - done
+[1.050s] -- Detecting C compile features
+[1.790s] -- Detecting C compile features - done
+[1.797s] -- Check for working CXX compiler: /usr/bin/c++
+[2.072s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.077s] -- Detecting CXX compiler ABI info
+[2.357s] -- Detecting CXX compiler ABI info - done
+[2.375s] -- Detecting CXX compile features
+[3.574s] -- Detecting CXX compile features - done
+[3.586s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[3.707s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[3.708s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.914s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[5.023s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[5.230s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[5.238s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.243s] -- Looking for pthread.h
+[5.522s] -- Looking for pthread.h - found
+[5.525s] -- Looking for pthread_create
+[5.785s] -- Looking for pthread_create - not found
+[5.786s] -- Looking for pthread_create in pthreads
+[6.011s] -- Looking for pthread_create in pthreads - not found
+[6.011s] -- Looking for pthread_create in pthread
+[6.267s] -- Looking for pthread_create in pthread - found
+[6.270s] -- Found Threads: TRUE  
+[6.418s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[6.990s] -- Configuring done
+[7.079s] -- Generating done
+[7.084s] -- Build files have been written to: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub
+[7.096s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub
+[7.109s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub -- -j4 -l4
+[7.261s] [35m[1mScanning dependencies of target talker[0m
+[7.262s] [35m[1mScanning dependencies of target listener[0m
+[7.498s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[7.499s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[15.832s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[16.468s] [ 75%] Built target talker
+[16.608s] [100%] [32m[1mLinking CXX executable listener[0m
+[17.145s] [100%] Built target listener
+[17.187s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub -- -j4 -l4
+[17.346s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub --target install -- -j4 -l4
+[17.562s] [100%] Built target talker
+[17.563s] [100%] Built target listener
+[17.634s] [36mInstall the project...[0m
+[17.669s] -- Install configuration: ""
+[17.669s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[17.672s] -- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[17.673s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[17.674s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[17.678s] -- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[17.679s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[17.679s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[17.680s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[17.680s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[17.681s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[17.681s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[17.682s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[17.682s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[17.683s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[17.684s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[17.684s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[17.704s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub --target install -- -j4 -l4

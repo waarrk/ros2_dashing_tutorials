@@ -1,0 +1,257 @@
+[0.000000] (-) TimerEvent: {}
+[0.004121] (-) JobUnselected: {'identifier': 'my_package'}
+[0.004319] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.004464] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.090887] (-) TimerEvent: {}
+[0.107874] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.109025] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub'], 'cwd': '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('LC_TIME', 'ja_JP.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'unity'), ('JETSON_L4T', '32.7.3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '5896'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jetson/.nvm'), ('_colcon_cd_root', '/home/jetson/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'jetson'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:33594'), ('JETSON_SERIAL_NUMBER', '1422019015634'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('JETSON_CODENAME', 'Porg'), ('ROS_VERSION', '2'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/dashing/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '02ca34fd4b374a498d570a7c269794d9'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/7072,unix/jetson:/tmp/.ICE-unix/7072'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e824265_b0f1_425e_a4cf_531da32c9ee8'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6.3'), ('VTE_VERSION', '5202'), ('JETSON_P_NUMBER', 'p3448-0000'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.191014] (-) TimerEvent: {}
+[0.291939] (-) TimerEvent: {}
+[0.331887] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.392135] (-) TimerEvent: {}
+[0.492898] (-) TimerEvent: {}
+[0.529862] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.543209] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.593088] (-) TimerEvent: {}
+[0.694010] (-) TimerEvent: {}
+[0.789249] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.791105] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.794122] (-) TimerEvent: {}
+[0.894771] (-) TimerEvent: {}
+[0.995589] (-) TimerEvent: {}
+[1.035625] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.054528] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.095830] (-) TimerEvent: {}
+[1.196626] (-) TimerEvent: {}
+[1.297430] (-) TimerEvent: {}
+[1.398261] (-) TimerEvent: {}
+[1.498996] (-) TimerEvent: {}
+[1.599798] (-) TimerEvent: {}
+[1.700548] (-) TimerEvent: {}
+[1.794051] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.800742] (-) TimerEvent: {}
+[1.801387] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.900939] (-) TimerEvent: {}
+[2.001948] (-) TimerEvent: {}
+[2.076040] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.078267] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.102217] (-) TimerEvent: {}
+[2.203241] (-) TimerEvent: {}
+[2.304053] (-) TimerEvent: {}
+[2.361303] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.378903] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.404255] (-) TimerEvent: {}
+[2.505071] (-) TimerEvent: {}
+[2.605929] (-) TimerEvent: {}
+[2.706682] (-) TimerEvent: {}
+[2.807447] (-) TimerEvent: {}
+[2.908243] (-) TimerEvent: {}
+[3.008996] (-) TimerEvent: {}
+[3.109846] (-) TimerEvent: {}
+[3.210635] (-) TimerEvent: {}
+[3.311365] (-) TimerEvent: {}
+[3.412167] (-) TimerEvent: {}
+[3.512943] (-) TimerEvent: {}
+[3.578133] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.589520] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[3.613236] (-) TimerEvent: {}
+[3.711413] (cpp_pubsub) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[3.712362] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.713316] (-) TimerEvent: {}
+[3.814020] (-) TimerEvent: {}
+[3.914803] (-) TimerEvent: {}
+[4.015489] (-) TimerEvent: {}
+[4.116185] (-) TimerEvent: {}
+[4.217042] (-) TimerEvent: {}
+[4.317769] (-) TimerEvent: {}
+[4.418589] (-) TimerEvent: {}
+[4.519309] (-) TimerEvent: {}
+[4.620021] (-) TimerEvent: {}
+[4.720751] (-) TimerEvent: {}
+[4.821503] (-) TimerEvent: {}
+[4.918392] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[4.921732] (-) TimerEvent: {}
+[5.022412] (-) TimerEvent: {}
+[5.026874] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[5.122716] (-) TimerEvent: {}
+[5.223491] (-) TimerEvent: {}
+[5.234335] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[5.241553] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.246889] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.323734] (-) TimerEvent: {}
+[5.424531] (-) TimerEvent: {}
+[5.525324] (-) TimerEvent: {}
+[5.526438] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.529478] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[5.625558] (-) TimerEvent: {}
+[5.726354] (-) TimerEvent: {}
+[5.788926] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[5.789738] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[5.826589] (-) TimerEvent: {}
+[5.927437] (-) TimerEvent: {}
+[6.014636] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[6.015500] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[6.027606] (-) TimerEvent: {}
+[6.128376] (-) TimerEvent: {}
+[6.229256] (-) TimerEvent: {}
+[6.271198] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[6.274398] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.329442] (-) TimerEvent: {}
+[6.422287] (cpp_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[6.429648] (-) TimerEvent: {}
+[6.530294] (-) TimerEvent: {}
+[6.631164] (-) TimerEvent: {}
+[6.731912] (-) TimerEvent: {}
+[6.832645] (-) TimerEvent: {}
+[6.933434] (-) TimerEvent: {}
+[6.993461] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.033688] (-) TimerEvent: {}
+[7.083229] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[7.088445] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub\n'}
+[7.099372] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.103007] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[7.111512] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('LC_TIME', 'ja_JP.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'unity'), ('JETSON_L4T', '32.7.3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '5896'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jetson/.nvm'), ('_colcon_cd_root', '/home/jetson/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'jetson'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:33594'), ('JETSON_SERIAL_NUMBER', '1422019015634'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('JETSON_CODENAME', 'Porg'), ('ROS_VERSION', '2'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/dashing/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '02ca34fd4b374a498d570a7c269794d9'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/7072,unix/jetson:/tmp/.ICE-unix/7072'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e824265_b0f1_425e_a4cf_531da32c9ee8'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6.3'), ('VTE_VERSION', '5202'), ('JETSON_P_NUMBER', 'p3448-0000'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[7.133860] (-) TimerEvent: {}
+[7.234731] (-) TimerEvent: {}
+[7.264511] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[7.265583] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[7.335067] (-) TimerEvent: {}
+[7.436040] (-) TimerEvent: {}
+[7.502155] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[7.503118] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[7.536221] (-) TimerEvent: {}
+[7.637012] (-) TimerEvent: {}
+[7.737824] (-) TimerEvent: {}
+[7.838610] (-) TimerEvent: {}
+[7.939410] (-) TimerEvent: {}
+[8.040243] (-) TimerEvent: {}
+[8.141086] (-) TimerEvent: {}
+[8.241978] (-) TimerEvent: {}
+[8.342738] (-) TimerEvent: {}
+[8.443577] (-) TimerEvent: {}
+[8.544430] (-) TimerEvent: {}
+[8.645273] (-) TimerEvent: {}
+[8.746197] (-) TimerEvent: {}
+[8.847061] (-) TimerEvent: {}
+[8.947891] (-) TimerEvent: {}
+[9.048731] (-) TimerEvent: {}
+[9.149565] (-) TimerEvent: {}
+[9.250542] (-) TimerEvent: {}
+[9.351334] (-) TimerEvent: {}
+[9.452525] (-) TimerEvent: {}
+[9.553311] (-) TimerEvent: {}
+[9.654205] (-) TimerEvent: {}
+[9.754974] (-) TimerEvent: {}
+[9.855820] (-) TimerEvent: {}
+[9.956669] (-) TimerEvent: {}
+[10.057509] (-) TimerEvent: {}
+[10.158401] (-) TimerEvent: {}
+[10.259263] (-) TimerEvent: {}
+[10.360043] (-) TimerEvent: {}
+[10.460830] (-) TimerEvent: {}
+[10.561754] (-) TimerEvent: {}
+[10.662527] (-) TimerEvent: {}
+[10.763314] (-) TimerEvent: {}
+[10.864166] (-) TimerEvent: {}
+[10.964953] (-) TimerEvent: {}
+[11.065807] (-) TimerEvent: {}
+[11.166640] (-) TimerEvent: {}
+[11.267475] (-) TimerEvent: {}
+[11.368257] (-) TimerEvent: {}
+[11.469044] (-) TimerEvent: {}
+[11.570103] (-) TimerEvent: {}
+[11.670876] (-) TimerEvent: {}
+[11.771669] (-) TimerEvent: {}
+[11.872458] (-) TimerEvent: {}
+[11.973239] (-) TimerEvent: {}
+[12.074110] (-) TimerEvent: {}
+[12.174892] (-) TimerEvent: {}
+[12.275743] (-) TimerEvent: {}
+[12.376586] (-) TimerEvent: {}
+[12.477432] (-) TimerEvent: {}
+[12.578342] (-) TimerEvent: {}
+[12.679127] (-) TimerEvent: {}
+[12.779967] (-) TimerEvent: {}
+[12.880750] (-) TimerEvent: {}
+[12.981602] (-) TimerEvent: {}
+[13.082395] (-) TimerEvent: {}
+[13.183170] (-) TimerEvent: {}
+[13.284012] (-) TimerEvent: {}
+[13.384859] (-) TimerEvent: {}
+[13.485703] (-) TimerEvent: {}
+[13.586474] (-) TimerEvent: {}
+[13.687264] (-) TimerEvent: {}
+[13.788043] (-) TimerEvent: {}
+[13.888888] (-) TimerEvent: {}
+[13.989784] (-) TimerEvent: {}
+[14.090626] (-) TimerEvent: {}
+[14.191759] (-) TimerEvent: {}
+[14.292546] (-) TimerEvent: {}
+[14.393380] (-) TimerEvent: {}
+[14.494302] (-) TimerEvent: {}
+[14.595081] (-) TimerEvent: {}
+[14.695848] (-) TimerEvent: {}
+[14.796631] (-) TimerEvent: {}
+[14.897448] (-) TimerEvent: {}
+[14.998244] (-) TimerEvent: {}
+[15.099011] (-) TimerEvent: {}
+[15.199797] (-) TimerEvent: {}
+[15.300709] (-) TimerEvent: {}
+[15.401730] (-) TimerEvent: {}
+[15.502514] (-) TimerEvent: {}
+[15.603293] (-) TimerEvent: {}
+[15.704065] (-) TimerEvent: {}
+[15.804952] (-) TimerEvent: {}
+[15.835868] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[15.905221] (-) TimerEvent: {}
+[16.006322] (-) TimerEvent: {}
+[16.107084] (-) TimerEvent: {}
+[16.207890] (-) TimerEvent: {}
+[16.308627] (-) TimerEvent: {}
+[16.409473] (-) TimerEvent: {}
+[16.472448] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[16.509802] (-) TimerEvent: {}
+[16.610565] (-) TimerEvent: {}
+[16.611849] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[16.710818] (-) TimerEvent: {}
+[16.811708] (-) TimerEvent: {}
+[16.912582] (-) TimerEvent: {}
+[17.013439] (-) TimerEvent: {}
+[17.114337] (-) TimerEvent: {}
+[17.148722] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[17.189716] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[17.214629] (-) TimerEvent: {}
+[17.299579] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[17.314888] (-) TimerEvent: {}
+[17.347481] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('LC_TIME', 'ja_JP.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'unity'), ('JETSON_L4T', '32.7.3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '5896'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jetson/.nvm'), ('_colcon_cd_root', '/home/jetson/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'jetson'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:33594'), ('JETSON_SERIAL_NUMBER', '1422019015634'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('JETSON_CODENAME', 'Porg'), ('ROS_VERSION', '2'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/dashing/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '02ca34fd4b374a498d570a7c269794d9'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/7072,unix/jetson:/tmp/.ICE-unix/7072'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0e824265_b0f1_425e_a4cf_531da32c9ee8'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6.3'), ('VTE_VERSION', '5202'), ('JETSON_P_NUMBER', 'p3448-0000'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[17.415109] (-) TimerEvent: {}
+[17.516007] (-) TimerEvent: {}
+[17.566311] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[17.567108] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[17.616237] (-) TimerEvent: {}
+[17.638384] (cpp_pubsub) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[17.672505] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.673384] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[17.676560] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[17.677270] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[17.678261] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[17.681712] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[17.682569] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[17.683244] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[17.683865] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[17.684397] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[17.684897] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[17.685416] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[17.686011] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[17.686607] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[17.687270] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[17.687876] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[17.688371] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[17.697553] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[17.720860] (-) TimerEvent: {}
+[17.822020] (-) TimerEvent: {}
+[17.922814] (-) TimerEvent: {}
+[18.028961] (-) TimerEvent: {}
+[18.139863] (-) TimerEvent: {}
+[18.202496] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[18.206508] (-) EventReactorShutdown: {}
