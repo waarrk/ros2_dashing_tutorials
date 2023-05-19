@@ -1,0 +1,24 @@
+[0.123s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub -- -j4 -l4
+[0.381s] [100%] Built target listener
+[0.381s] [100%] Built target talker
+[0.425s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub -- -j4 -l4
+[0.591s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub --target install -- -j4 -l4
+[0.814s] [100%] Built target listener
+[0.815s] [100%] Built target talker
+[0.888s] [36mInstall the project...[0m
+[0.926s] -- Install configuration: ""
+[0.928s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.930s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.933s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[0.934s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[0.935s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[0.936s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[0.936s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[0.937s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[0.937s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[0.938s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[0.939s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[0.939s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[0.940s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[0.940s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[0.957s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_pubsub --target install -- -j4 -l4

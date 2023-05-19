@@ -1,0 +1,227 @@
+[0.152s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces
+[0.761s] -- The C compiler identification is GNU 7.5.0
+[1.202s] -- The CXX compiler identification is GNU 7.5.0
+[1.225s] -- Check for working C compiler: /usr/bin/cc
+[1.481s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.485s] -- Detecting C compiler ABI info
+[1.735s] -- Detecting C compiler ABI info - done
+[1.756s] -- Detecting C compile features
+[2.587s] -- Detecting C compile features - done
+[2.598s] -- Check for working CXX compiler: /usr/bin/c++
+[2.877s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.878s] -- Detecting CXX compiler ABI info
+[3.158s] -- Detecting CXX compiler ABI info - done
+[3.177s] -- Detecting CXX compile features
+[4.434s] -- Detecting CXX compile features - done
+[4.451s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[4.600s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[4.600s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.019s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[6.525s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[6.645s] -- Found FastRTPS: /opt/ros/dashing/include  
+[6.740s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[7.223s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[8.090s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[8.114s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[8.555s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[8.669s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[8.681s] -- Found python_cmake_module: 0.7.11 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[8.812s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[8.813s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.813s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[8.814s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[8.916s] -- Found PythonExtra: .so  
+[9.496s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[9.659s] -- Added test 'lint_cmake' to check CMake code style
+[9.667s] -- Added test 'xmllint' to check XML markup files
+[9.687s] -- Configuring done
+[9.859s] -- Generating done
+[9.872s] -- Build files have been written to: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces
+[9.890s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces
+[9.904s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces -- -j4 -l4
+[10.068s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[10.069s] [35m[1mScanning dependencies of target tutorial_interfaces__cpp[0m
+[10.116s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.066s] [  5%] Built target tutorial_interfaces__cpp
+[12.110s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.111s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.441s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_generator_c[0m
+[12.500s] [ 13%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/add_three_ints__functions.c.o[0m
+[12.501s] [ 16%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/num__functions.c.o[0m
+[12.882s] [ 18%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[13.091s] [ 18%] Built target tutorial_interfaces__rosidl_generator_c
+[13.147s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.418s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp[0m
+[14.551s] [ 24%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[14.581s] [ 27%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[14.823s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[14.937s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/dds_fastrtps/num__type_support.cpp.o[0m
+[15.482s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c[0m
+[15.555s] [ 32%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/num__type_support.c.o[0m
+[15.803s] [ 35%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/add_three_ints__type_support.c.o[0m
+[15.874s] [ 37%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[15.948s] [ 40%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[15.980s] [ 43%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[16.096s] [ 43%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[16.161s] [ 43%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[17.397s] [ 45%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[17.769s] [ 45%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[17.811s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[17.812s] [ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.697s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_cpp[0m
+[19.768s] [ 54%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[19.778s] [ 56%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[20.068s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c[0m
+[20.154s] [ 59%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/add_three_ints__type_support_c.cpp.o[0m
+[20.177s] [ 62%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/num__type_support_c.cpp.o[0m
+[21.863s] [ 64%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[21.880s] [ 67%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[22.221s] [ 67%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[22.240s] [ 67%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[22.286s] [ 70%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[24.020s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c[0m
+[24.073s] [ 72%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[24.091s] [ 75%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[24.220s] [ 78%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[24.406s] [ 78%] Built target tutorial_interfaces__rosidl_typesupport_c
+[24.452s] [35m[1mScanning dependencies of target tutorial_interfaces[0m
+[24.502s] [ 78%] Built target tutorial_interfaces
+[24.549s] [35m[1mScanning dependencies of target tutorial_interfaces__py[0m
+[24.610s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[28.348s] [ 81%] Built target tutorial_interfaces__py
+[28.390s] [35m[1mScanning dependencies of target tutorial_interfaces__python[0m
+[28.551s] [ 86%] [32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[28.552s] [ 86%] [32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[28.948s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__python.so[0m
+[29.145s] [ 89%] Built target tutorial_interfaces__python
+[29.188s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[29.188s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext[0m
+[29.262s] [ 94%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[29.263s] [ 94%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[29.581s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[29.582s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[29.781s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[29.782s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[29.839s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces -- -j4 -l4
+[30.228s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces --target install -- -j4 -l4
+[30.446s] [  8%] Built target tutorial_interfaces__cpp
+[30.447s] [ 13%] Built target tutorial_interfaces__rosidl_generator_c
+[30.556s] [ 24%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[30.564s] [ 35%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[30.592s] [ 45%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[30.713s] [ 67%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[30.714s] [ 67%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[30.828s] [ 78%] Built target tutorial_interfaces__rosidl_typesupport_c
+[30.913s] [ 78%] Built target tutorial_interfaces
+[31.001s] [ 81%] Built target tutorial_interfaces__py
+[31.118s] [ 89%] Built target tutorial_interfaces__python
+[31.236s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[31.237s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[31.316s] [36mInstall the project...[0m
+[31.353s] -- Install configuration: ""
+[31.354s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[31.355s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[31.357s] -- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[31.358s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[31.358s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[31.360s] -- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[31.361s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[31.362s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[31.363s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[31.365s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[31.365s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[31.366s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__rosidl_typesupport_fastrtps_c.h
+[31.366s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[31.367s] -- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[31.368s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[31.369s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[31.370s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__functions.h
+[31.370s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__struct.h
+[31.371s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__functions.c
+[31.372s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__type_support.h
+[31.373s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.h
+[31.373s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[31.374s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__functions.h
+[31.374s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__struct.h
+[31.375s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__functions.c
+[31.376s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.h
+[31.377s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__type_support.h
+[31.378s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[31.379s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[31.379s] -- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[31.380s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[31.380s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[31.381s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[31.381s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/dds_fastrtps
+[31.382s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[31.382s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__rosidl_typesupport_fastrtps_cpp.hpp
+[31.383s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[31.384s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/dds_fastrtps
+[31.384s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[31.385s] -- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[31.386s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[31.387s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[31.388s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.hpp
+[31.389s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__traits.hpp
+[31.389s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__struct.hpp
+[31.390s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[31.390s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__struct.hpp
+[31.391s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp
+[31.392s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__traits.hpp
+[31.392s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[31.393s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[31.393s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__rosidl_typesupport_introspection_c.h
+[31.394s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__type_support.c
+[31.394s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[31.395s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__rosidl_typesupport_introspection_c.h
+[31.395s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__type_support.c
+[31.396s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[31.396s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[31.397s] -- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[31.397s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[31.398s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[31.398s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[31.399s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__type_support.cpp
+[31.399s] -- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[31.400s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__rosidl_typesupport_introspection_cpp.hpp
+[31.401s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__type_support.cpp
+[31.401s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[31.402s] -- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[31.402s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[31.403s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/__init__.py
+[31.560s] Compiling '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/__init__.py'...
+[31.582s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/msg
+[31.583s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/msg/__init__.py
+[31.583s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/msg/_num_s.c
+[31.584s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/msg/_num.py
+[31.585s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/srv
+[31.585s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/srv/__init__.py
+[31.586s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[31.586s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/srv/_add_three_ints.py
+[31.587s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[31.588s] -- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[31.589s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[31.591s] -- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[31.592s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so
+[31.593s] -- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so" to ""
+[31.594s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[31.595s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[31.596s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[31.596s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[31.597s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg
+[31.598s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
+[31.598s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[31.599s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[31.600s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[31.600s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[31.601s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[31.602s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[31.603s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[31.604s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[31.605s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[31.606s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[31.609s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.609s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[31.610s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[31.611s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[31.632s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces --target install -- -j4 -l4

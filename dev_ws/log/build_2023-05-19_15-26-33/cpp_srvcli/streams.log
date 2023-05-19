@@ -1,0 +1,75 @@
+[0.152s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli
+[1.081s] -- The C compiler identification is GNU 7.5.0
+[1.525s] -- The CXX compiler identification is GNU 7.5.0
+[1.553s] -- Check for working C compiler: /usr/bin/cc
+[1.802s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.806s] -- Detecting C compiler ABI info
+[2.056s] -- Detecting C compiler ABI info - done
+[2.076s] -- Detecting C compile features
+[2.821s] -- Detecting C compile features - done
+[2.832s] -- Check for working CXX compiler: /usr/bin/c++
+[3.106s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.108s] -- Detecting CXX compiler ABI info
+[3.390s] -- Detecting CXX compiler ABI info - done
+[3.408s] -- Detecting CXX compile features
+[4.609s] -- Detecting CXX compile features - done
+[4.664s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[4.806s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[4.806s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.071s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[6.201s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[6.425s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[6.432s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.437s] -- Looking for pthread.h
+[6.732s] -- Looking for pthread.h - found
+[6.735s] -- Looking for pthread_create
+[6.999s] -- Looking for pthread_create - not found
+[6.999s] -- Looking for pthread_create in pthreads
+[7.226s] -- Looking for pthread_create in pthreads - not found
+[7.227s] -- Looking for pthread_create in pthread
+[7.483s] -- Looking for pthread_create in pthread - found
+[7.487s] -- Found Threads: TRUE  
+[7.646s] -- Found example_interfaces: 0.7.1 (/opt/ros/dashing/share/example_interfaces/cmake)
+[7.853s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[8.444s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[8.450s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.450s] -- Configured cppcheck include dirs: 
+[8.454s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.458s] -- Added test 'lint_cmake' to check CMake code style
+[8.464s] -- Added test 'uncrustify' to check C / C++ code style
+[8.466s] -- Added test 'xmllint' to check XML markup files
+[8.478s] -- Configuring done
+[8.604s] -- Generating done
+[8.610s] -- Build files have been written to: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_srvcli
+[8.625s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli
+[8.638s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_srvcli -- -j4 -l4
+[8.794s] [35m[1mScanning dependencies of target server[0m
+[8.795s] [35m[1mScanning dependencies of target client[0m
+[9.028s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[9.028s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[14.873s] [ 75%] [32m[1mLinking CXX executable server[0m
+[15.429s] [ 75%] Built target server
+[16.907s] [100%] [32m[1mLinking CXX executable client[0m
+[17.428s] [100%] Built target client
+[17.471s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_srvcli -- -j4 -l4
+[17.630s] Invoking command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_srvcli --target install -- -j4 -l4
+[17.851s] [100%] Built target server
+[17.851s] [100%] Built target client
+[17.922s] [36mInstall the project...[0m
+[17.956s] -- Install configuration: ""
+[17.957s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[17.959s] -- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[17.960s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[17.962s] -- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[17.963s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[17.964s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[17.964s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[17.965s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[17.966s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[17.967s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[17.969s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[17.971s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[17.971s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[17.972s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[17.973s] -- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[17.982s] Invoked command in '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/cpp_srvcli --target install -- -j4 -l4

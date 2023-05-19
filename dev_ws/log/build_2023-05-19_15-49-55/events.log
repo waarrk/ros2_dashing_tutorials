@@ -1,0 +1,559 @@
+[0.000000] (-) TimerEvent: {}
+[0.000509] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000677] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000815] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000947] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.002777] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.104088] (-) TimerEvent: {}
+[0.149520] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.150833] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces'], 'cwd': '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('LC_TIME', 'ja_JP.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/turtlesim/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'unity'), ('JETSON_L4T', '32.7.3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '5896'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jetson/.nvm'), ('_colcon_cd_root', '/home/jetson/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'jetson'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:33594'), ('JETSON_SERIAL_NUMBER', '1422019015634'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('JETSON_CODENAME', 'Porg'), ('ROS_VERSION', '2'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/dashing/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '02ca34fd4b374a498d570a7c269794d9'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/7072,unix/jetson:/tmp/.ICE-unix/7072'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1412e723_37cf_4d95_976b_5242fbaca1ba'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/turtlesim:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('PYTHONPATH', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/turtlesim/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6.3'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/turtlesim:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub:/opt/ros/dashing'), ('JETSON_P_NUMBER', 'p3448-0000')]), 'shell': False}
+[0.204341] (-) TimerEvent: {}
+[0.305238] (-) TimerEvent: {}
+[0.406337] (-) TimerEvent: {}
+[0.507930] (-) TimerEvent: {}
+[0.609924] (-) TimerEvent: {}
+[0.710789] (-) TimerEvent: {}
+[0.763709] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.810981] (-) TimerEvent: {}
+[0.912016] (-) TimerEvent: {}
+[1.014053] (-) TimerEvent: {}
+[1.116856] (-) TimerEvent: {}
+[1.204563] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.217040] (-) TimerEvent: {}
+[1.227332] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.317293] (-) TimerEvent: {}
+[1.418105] (-) TimerEvent: {}
+[1.484114] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.487925] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.518283] (-) TimerEvent: {}
+[1.619053] (-) TimerEvent: {}
+[1.719798] (-) TimerEvent: {}
+[1.737711] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.759052] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.820093] (-) TimerEvent: {}
+[1.922243] (-) TimerEvent: {}
+[2.023249] (-) TimerEvent: {}
+[2.125192] (-) TimerEvent: {}
+[2.226581] (-) TimerEvent: {}
+[2.327380] (-) TimerEvent: {}
+[2.428159] (-) TimerEvent: {}
+[2.528977] (-) TimerEvent: {}
+[2.589935] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.600494] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.629193] (-) TimerEvent: {}
+[2.729981] (-) TimerEvent: {}
+[2.830890] (-) TimerEvent: {}
+[2.879594] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.881413] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.931120] (-) TimerEvent: {}
+[3.031911] (-) TimerEvent: {}
+[3.132702] (-) TimerEvent: {}
+[3.160873] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.179685] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.232995] (-) TimerEvent: {}
+[3.333802] (-) TimerEvent: {}
+[3.434600] (-) TimerEvent: {}
+[3.535358] (-) TimerEvent: {}
+[3.636156] (-) TimerEvent: {}
+[3.736939] (-) TimerEvent: {}
+[3.837786] (-) TimerEvent: {}
+[3.938543] (-) TimerEvent: {}
+[4.039469] (-) TimerEvent: {}
+[4.140256] (-) TimerEvent: {}
+[4.241067] (-) TimerEvent: {}
+[4.341909] (-) TimerEvent: {}
+[4.436785] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.442063] (-) TimerEvent: {}
+[4.453591] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[4.542337] (-) TimerEvent: {}
+[4.602247] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[4.603356] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.642494] (-) TimerEvent: {}
+[4.743193] (-) TimerEvent: {}
+[4.843886] (-) TimerEvent: {}
+[4.944617] (-) TimerEvent: {}
+[5.045358] (-) TimerEvent: {}
+[5.146099] (-) TimerEvent: {}
+[5.246891] (-) TimerEvent: {}
+[5.347588] (-) TimerEvent: {}
+[5.448315] (-) TimerEvent: {}
+[5.549013] (-) TimerEvent: {}
+[5.649715] (-) TimerEvent: {}
+[5.750520] (-) TimerEvent: {}
+[5.851628] (-) TimerEvent: {}
+[5.953268] (-) TimerEvent: {}
+[6.021730] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)\n'}
+[6.053466] (-) TimerEvent: {}
+[6.154270] (-) TimerEvent: {}
+[6.255402] (-) TimerEvent: {}
+[6.356463] (-) TimerEvent: {}
+[6.457613] (-) TimerEvent: {}
+[6.527573] (tutorial_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[6.557816] (-) TimerEvent: {}
+[6.647661] (tutorial_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/dashing/include  \n'}
+[6.658003] (-) TimerEvent: {}
+[6.742635] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[6.758233] (-) TimerEvent: {}
+[6.859913] (-) TimerEvent: {}
+[6.960802] (-) TimerEvent: {}
+[7.062295] (-) TimerEvent: {}
+[7.163329] (-) TimerEvent: {}
+[7.226143] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[7.263720] (-) TimerEvent: {}
+[7.364737] (-) TimerEvent: {}
+[7.465485] (-) TimerEvent: {}
+[7.566525] (-) TimerEvent: {}
+[7.667272] (-) TimerEvent: {}
+[7.768055] (-) TimerEvent: {}
+[7.868896] (-) TimerEvent: {}
+[7.969630] (-) TimerEvent: {}
+[8.070409] (-) TimerEvent: {}
+[8.092991] (tutorial_interfaces) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[8.117140] (tutorial_interfaces) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[8.170632] (-) TimerEvent: {}
+[8.271387] (-) TimerEvent: {}
+[8.372420] (-) TimerEvent: {}
+[8.473298] (-) TimerEvent: {}
+[8.557559] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[8.573491] (-) TimerEvent: {}
+[8.671623] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[8.673595] (-) TimerEvent: {}
+[8.683522] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.7.11 (/opt/ros/dashing/share/python_cmake_module/cmake)\n'}
+[8.773840] (-) TimerEvent: {}
+[8.814618] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[8.815620] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.816204] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[8.816687] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so\n'}
+[8.874080] (-) TimerEvent: {}
+[8.919065] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.974313] (-) TimerEvent: {}
+[9.075092] (-) TimerEvent: {}
+[9.175902] (-) TimerEvent: {}
+[9.276960] (-) TimerEvent: {}
+[9.377652] (-) TimerEvent: {}
+[9.478349] (-) TimerEvent: {}
+[9.498962] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[9.578659] (-) TimerEvent: {}
+[9.662210] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.670378] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.678827] (-) TimerEvent: {}
+[9.690232] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.779054] (-) TimerEvent: {}
+[9.861747] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[9.875103] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces\n'}
+[9.879241] (-) TimerEvent: {}
+[9.892021] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[9.895873] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[9.899591] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('LC_TIME', 'ja_JP.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/turtlesim/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'unity'), ('JETSON_L4T', '32.7.3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '5896'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jetson/.nvm'), ('_colcon_cd_root', '/home/jetson/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'jetson'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:33594'), ('JETSON_SERIAL_NUMBER', '1422019015634'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('JETSON_CODENAME', 'Porg'), ('ROS_VERSION', '2'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/dashing/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '02ca34fd4b374a498d570a7c269794d9'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/7072,unix/jetson:/tmp/.ICE-unix/7072'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1412e723_37cf_4d95_976b_5242fbaca1ba'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/turtlesim:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('PYTHONPATH', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/turtlesim/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6.3'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/turtlesim:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub:/opt/ros/dashing'), ('JETSON_P_NUMBER', 'p3448-0000')]), 'shell': False}
+[9.979478] (-) TimerEvent: {}
+[10.071159] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.072259] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__cpp\x1b[0m\n'}
+[10.079696] (-) TimerEvent: {}
+[10.119324] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[10.179863] (-) TimerEvent: {}
+[10.280655] (-) TimerEvent: {}
+[10.381393] (-) TimerEvent: {}
+[10.482166] (-) TimerEvent: {}
+[10.582975] (-) TimerEvent: {}
+[10.683722] (-) TimerEvent: {}
+[10.784420] (-) TimerEvent: {}
+[10.885178] (-) TimerEvent: {}
+[10.985925] (-) TimerEvent: {}
+[11.086654] (-) TimerEvent: {}
+[11.187625] (-) TimerEvent: {}
+[11.288327] (-) TimerEvent: {}
+[11.389071] (-) TimerEvent: {}
+[11.489813] (-) TimerEvent: {}
+[11.590656] (-) TimerEvent: {}
+[11.691389] (-) TimerEvent: {}
+[11.792079] (-) TimerEvent: {}
+[11.893115] (-) TimerEvent: {}
+[11.993906] (-) TimerEvent: {}
+[12.069093] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] Built target tutorial_interfaces__cpp\n'}
+[12.094090] (-) TimerEvent: {}
+[12.112771] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.113575] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.194290] (-) TimerEvent: {}
+[12.295618] (-) TimerEvent: {}
+[12.396808] (-) TimerEvent: {}
+[12.443925] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_generator_c\x1b[0m\n'}
+[12.497005] (-) TimerEvent: {}
+[12.502335] (tutorial_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/add_three_ints__functions.c.o\x1b[0m\n'}
+[12.504179] (tutorial_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/num__functions.c.o\x1b[0m\n'}
+[12.597215] (-) TimerEvent: {}
+[12.698291] (-) TimerEvent: {}
+[12.799133] (-) TimerEvent: {}
+[12.884929] (tutorial_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[12.899270] (-) TimerEvent: {}
+[13.000038] (-) TimerEvent: {}
+[13.093930] (tutorial_interfaces) StdoutLine: {'line': b'[ 18%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[13.100220] (-) TimerEvent: {}
+[13.149487] (tutorial_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[13.201024] (-) TimerEvent: {}
+[13.302572] (-) TimerEvent: {}
+[13.403650] (-) TimerEvent: {}
+[13.504722] (-) TimerEvent: {}
+[13.607285] (-) TimerEvent: {}
+[13.708649] (-) TimerEvent: {}
+[13.809986] (-) TimerEvent: {}
+[13.911501] (-) TimerEvent: {}
+[14.012383] (-) TimerEvent: {}
+[14.113553] (-) TimerEvent: {}
+[14.214429] (-) TimerEvent: {}
+[14.315500] (-) TimerEvent: {}
+[14.417028] (-) TimerEvent: {}
+[14.421228] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[14.517220] (-) TimerEvent: {}
+[14.553540] (tutorial_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[14.583671] (tutorial_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[14.617432] (-) TimerEvent: {}
+[14.718278] (-) TimerEvent: {}
+[14.819173] (-) TimerEvent: {}
+[14.826203] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[14.919296] (-) TimerEvent: {}
+[14.939951] (tutorial_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[15.019488] (-) TimerEvent: {}
+[15.120326] (-) TimerEvent: {}
+[15.221123] (-) TimerEvent: {}
+[15.322231] (-) TimerEvent: {}
+[15.423491] (-) TimerEvent: {}
+[15.484993] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[15.523700] (-) TimerEvent: {}
+[15.557324] (tutorial_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/num__type_support.c.o\x1b[0m\n'}
+[15.625823] (-) TimerEvent: {}
+[15.729960] (-) TimerEvent: {}
+[15.805897] (tutorial_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/add_three_ints__type_support.c.o\x1b[0m\n'}
+[15.830151] (-) TimerEvent: {}
+[15.876726] (tutorial_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[15.930377] (-) TimerEvent: {}
+[15.951024] (tutorial_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.982710] (tutorial_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.030633] (-) TimerEvent: {}
+[16.098332] (tutorial_interfaces) StdoutLine: {'line': b'[ 43%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[16.130864] (-) TimerEvent: {}
+[16.163588] (tutorial_interfaces) StdoutLine: {'line': b'[ 43%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[16.231060] (-) TimerEvent: {}
+[16.331821] (-) TimerEvent: {}
+[16.432747] (-) TimerEvent: {}
+[16.533594] (-) TimerEvent: {}
+[16.634432] (-) TimerEvent: {}
+[16.735200] (-) TimerEvent: {}
+[16.835945] (-) TimerEvent: {}
+[16.936730] (-) TimerEvent: {}
+[17.037574] (-) TimerEvent: {}
+[17.138331] (-) TimerEvent: {}
+[17.239223] (-) TimerEvent: {}
+[17.340513] (-) TimerEvent: {}
+[17.400310] (tutorial_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[17.440704] (-) TimerEvent: {}
+[17.541773] (-) TimerEvent: {}
+[17.643007] (-) TimerEvent: {}
+[17.743851] (-) TimerEvent: {}
+[17.772169] (tutorial_interfaces) StdoutLine: {'line': b'[ 45%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[17.814280] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[17.815117] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[17.844036] (-) TimerEvent: {}
+[17.944782] (-) TimerEvent: {}
+[18.045786] (-) TimerEvent: {}
+[18.146964] (-) TimerEvent: {}
+[18.248096] (-) TimerEvent: {}
+[18.348868] (-) TimerEvent: {}
+[18.449885] (-) TimerEvent: {}
+[18.550769] (-) TimerEvent: {}
+[18.651565] (-) TimerEvent: {}
+[18.752859] (-) TimerEvent: {}
+[18.855074] (-) TimerEvent: {}
+[18.956093] (-) TimerEvent: {}
+[19.057291] (-) TimerEvent: {}
+[19.158078] (-) TimerEvent: {}
+[19.259199] (-) TimerEvent: {}
+[19.361302] (-) TimerEvent: {}
+[19.462601] (-) TimerEvent: {}
+[19.564465] (-) TimerEvent: {}
+[19.666048] (-) TimerEvent: {}
+[19.700188] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[19.766297] (-) TimerEvent: {}
+[19.771073] (tutorial_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[19.780881] (tutorial_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[19.866541] (-) TimerEvent: {}
+[19.967378] (-) TimerEvent: {}
+[20.069126] (-) TimerEvent: {}
+[20.070256] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[20.156487] (tutorial_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[20.169331] (-) TimerEvent: {}
+[20.179544] (tutorial_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/num__type_support_c.cpp.o\x1b[0m\n'}
+[20.269539] (-) TimerEvent: {}
+[20.370633] (-) TimerEvent: {}
+[20.471774] (-) TimerEvent: {}
+[20.573044] (-) TimerEvent: {}
+[20.673900] (-) TimerEvent: {}
+[20.775093] (-) TimerEvent: {}
+[20.875888] (-) TimerEvent: {}
+[20.977149] (-) TimerEvent: {}
+[21.087109] (-) TimerEvent: {}
+[21.188246] (-) TimerEvent: {}
+[21.289384] (-) TimerEvent: {}
+[21.390311] (-) TimerEvent: {}
+[21.491195] (-) TimerEvent: {}
+[21.592399] (-) TimerEvent: {}
+[21.694260] (-) TimerEvent: {}
+[21.796346] (-) TimerEvent: {}
+[21.865714] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[21.882788] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[21.896597] (-) TimerEvent: {}
+[21.997445] (-) TimerEvent: {}
+[22.098328] (-) TimerEvent: {}
+[22.200338] (-) TimerEvent: {}
+[22.223458] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[22.242119] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[22.288669] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[22.300440] (-) TimerEvent: {}
+[22.402255] (-) TimerEvent: {}
+[22.503116] (-) TimerEvent: {}
+[22.603860] (-) TimerEvent: {}
+[22.704941] (-) TimerEvent: {}
+[22.806054] (-) TimerEvent: {}
+[22.906893] (-) TimerEvent: {}
+[23.007733] (-) TimerEvent: {}
+[23.110165] (-) TimerEvent: {}
+[23.210941] (-) TimerEvent: {}
+[23.311638] (-) TimerEvent: {}
+[23.412406] (-) TimerEvent: {}
+[23.513189] (-) TimerEvent: {}
+[23.613980] (-) TimerEvent: {}
+[23.715132] (-) TimerEvent: {}
+[23.818988] (-) TimerEvent: {}
+[23.919756] (-) TimerEvent: {}
+[24.020624] (-) TimerEvent: {}
+[24.023158] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[24.075898] (tutorial_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[24.093777] (tutorial_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[24.120865] (-) TimerEvent: {}
+[24.221726] (-) TimerEvent: {}
+[24.223058] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[24.321983] (-) TimerEvent: {}
+[24.408722] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[24.422173] (-) TimerEvent: {}
+[24.454142] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces\x1b[0m\n'}
+[24.504430] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces\n'}
+[24.522364] (-) TimerEvent: {}
+[24.551946] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__py\x1b[0m\n'}
+[24.612463] (tutorial_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[24.622590] (-) TimerEvent: {}
+[24.723336] (-) TimerEvent: {}
+[24.824116] (-) TimerEvent: {}
+[24.924892] (-) TimerEvent: {}
+[25.025616] (-) TimerEvent: {}
+[25.126605] (-) TimerEvent: {}
+[25.227494] (-) TimerEvent: {}
+[25.329382] (-) TimerEvent: {}
+[25.430549] (-) TimerEvent: {}
+[25.531289] (-) TimerEvent: {}
+[25.632088] (-) TimerEvent: {}
+[25.732976] (-) TimerEvent: {}
+[25.833912] (-) TimerEvent: {}
+[25.934774] (-) TimerEvent: {}
+[26.035764] (-) TimerEvent: {}
+[26.136522] (-) TimerEvent: {}
+[26.237227] (-) TimerEvent: {}
+[26.337915] (-) TimerEvent: {}
+[26.439102] (-) TimerEvent: {}
+[26.540411] (-) TimerEvent: {}
+[26.644588] (-) TimerEvent: {}
+[26.745482] (-) TimerEvent: {}
+[26.846565] (-) TimerEvent: {}
+[26.948622] (-) TimerEvent: {}
+[27.049453] (-) TimerEvent: {}
+[27.150227] (-) TimerEvent: {}
+[27.250974] (-) TimerEvent: {}
+[27.351651] (-) TimerEvent: {}
+[27.452380] (-) TimerEvent: {}
+[27.553082] (-) TimerEvent: {}
+[27.654008] (-) TimerEvent: {}
+[27.755060] (-) TimerEvent: {}
+[27.856939] (-) TimerEvent: {}
+[27.957632] (-) TimerEvent: {}
+[28.058413] (-) TimerEvent: {}
+[28.159568] (-) TimerEvent: {}
+[28.260365] (-) TimerEvent: {}
+[28.351242] (tutorial_interfaces) StdoutLine: {'line': b'[ 81%] Built target tutorial_interfaces__py\n'}
+[28.360543] (-) TimerEvent: {}
+[28.392622] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__python\x1b[0m\n'}
+[28.460754] (-) TimerEvent: {}
+[28.553532] (tutorial_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[28.554386] (tutorial_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[28.561256] (-) TimerEvent: {}
+[28.663886] (-) TimerEvent: {}
+[28.764870] (-) TimerEvent: {}
+[28.865640] (-) TimerEvent: {}
+[28.950371] (tutorial_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__python.so\x1b[0m\n'}
+[28.965871] (-) TimerEvent: {}
+[29.066637] (-) TimerEvent: {}
+[29.147608] (tutorial_interfaces) StdoutLine: {'line': b'[ 89%] Built target tutorial_interfaces__python\n'}
+[29.166824] (-) TimerEvent: {}
+[29.190614] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[29.191396] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[29.264660] (tutorial_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[29.265445] (tutorial_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[29.266974] (-) TimerEvent: {}
+[29.367793] (-) TimerEvent: {}
+[29.468592] (-) TimerEvent: {}
+[29.569432] (-) TimerEvent: {}
+[29.583864] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[29.584657] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[29.669721] (-) TimerEvent: {}
+[29.770618] (-) TimerEvent: {}
+[29.783952] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[29.784794] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[29.835891] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[29.870921] (-) TimerEvent: {}
+[29.973584] (-) TimerEvent: {}
+[30.075443] (-) TimerEvent: {}
+[30.176166] (-) TimerEvent: {}
+[30.178498] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[30.227943] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('LC_TIME', 'ja_JP.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/turtlesim/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'unity'), ('JETSON_L4T', '32.7.3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '5896'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jetson/.nvm'), ('_colcon_cd_root', '/home/jetson/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'jetson'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:33594'), ('JETSON_SERIAL_NUMBER', '1422019015634'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('JETSON_CODENAME', 'Porg'), ('ROS_VERSION', '2'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/dashing/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '02ca34fd4b374a498d570a7c269794d9'), ('SESSION_MANAGER', 'local/jetson:@/tmp/.ICE-unix/7072,unix/jetson:/tmp/.ICE-unix/7072'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1412e723_37cf_4d95_976b_5242fbaca1ba'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/turtlesim:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/build/tutorial_interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('PYTHONPATH', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/turtlesim/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6.3'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_srvcli:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/turtlesim:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/my_package:/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/cpp_pubsub:/opt/ros/dashing'), ('JETSON_P_NUMBER', 'p3448-0000')]), 'shell': False}
+[30.276384] (-) TimerEvent: {}
+[30.377377] (-) TimerEvent: {}
+[30.448918] (tutorial_interfaces) StdoutLine: {'line': b'[  8%] Built target tutorial_interfaces__cpp\n'}
+[30.449917] (tutorial_interfaces) StdoutLine: {'line': b'[ 13%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[30.477607] (-) TimerEvent: {}
+[30.558221] (tutorial_interfaces) StdoutLine: {'line': b'[ 24%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[30.567125] (tutorial_interfaces) StdoutLine: {'line': b'[ 35%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[30.577795] (-) TimerEvent: {}
+[30.594999] (tutorial_interfaces) StdoutLine: {'line': b'[ 45%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[30.677985] (-) TimerEvent: {}
+[30.716081] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[30.716919] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[30.778220] (-) TimerEvent: {}
+[30.830885] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[30.878407] (-) TimerEvent: {}
+[30.915832] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces\n'}
+[30.978622] (-) TimerEvent: {}
+[31.003836] (tutorial_interfaces) StdoutLine: {'line': b'[ 81%] Built target tutorial_interfaces__py\n'}
+[31.078845] (-) TimerEvent: {}
+[31.121213] (tutorial_interfaces) StdoutLine: {'line': b'[ 89%] Built target tutorial_interfaces__python\n'}
+[31.179025] (-) TimerEvent: {}
+[31.238614] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[31.239500] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[31.279272] (-) TimerEvent: {}
+[31.318558] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[31.356053] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.357007] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[31.357976] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[31.359414] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[31.360293] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[31.361074] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[31.362166] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[31.363429] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[31.364217] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[31.365508] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[31.367232] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[31.368217] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[31.368779] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__rosidl_typesupport_fastrtps_c.h\n'}
+[31.369354] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[31.369918] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[31.370934] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[31.371820] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[31.372617] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__functions.h\n'}
+[31.373195] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__struct.h\n'}
+[31.373870] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__functions.c\n'}
+[31.374670] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__type_support.h\n'}
+[31.375420] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.h\n'}
+[31.376160] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[31.376800] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__functions.h\n'}
+[31.377436] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__struct.h\n'}
+[31.377988] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__functions.c\n'}
+[31.378729] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.h\n'}
+[31.379564] (-) TimerEvent: {}
+[31.380254] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__type_support.h\n'}
+[31.380935] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[31.381477] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[31.382041] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[31.382619] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[31.383242] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[31.383817] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.384355] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/dds_fastrtps\n'}
+[31.384916] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[31.385413] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[31.386016] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[31.386694] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/dds_fastrtps\n'}
+[31.387398] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[31.387966] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[31.388658] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[31.389502] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[31.390632] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.hpp\n'}
+[31.391534] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__traits.hpp\n'}
+[31.392023] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__struct.hpp\n'}
+[31.392559] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[31.393103] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__struct.hpp\n'}
+[31.393598] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp\n'}
+[31.394344] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__traits.hpp\n'}
+[31.395149] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[31.395708] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[31.396205] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[31.396690] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__type_support.c\n'}
+[31.397211] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[31.397694] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__rosidl_typesupport_introspection_c.h\n'}
+[31.398188] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__type_support.c\n'}
+[31.398786] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[31.399359] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[31.399837] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[31.400302] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[31.400754] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[31.401205] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[31.401672] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints__type_support.cpp\n'}
+[31.402355] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[31.403062] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[31.403619] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num__type_support.cpp\n'}
+[31.404117] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[31.404644] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[31.405230] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[31.405780] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/__init__.py\n'}
+[31.480075] (-) TimerEvent: {}
+[31.562218] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/__init__.py'...\n"}
+[31.580263] (-) TimerEvent: {}
+[31.584661] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/msg\n'}
+[31.585578] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/msg/__init__.py\n'}
+[31.586249] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[31.587030] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/msg/_num.py\n'}
+[31.587599] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/srv\n'}
+[31.588151] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/srv/__init__.py\n'}
+[31.588601] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c\n'}
+[31.589139] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/srv/_add_three_ints.py\n'}
+[31.589591] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[31.590757] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""\n'}
+[31.592004] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[31.593635] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/python3.6/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""\n'}
+[31.594511] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so\n'}
+[31.596114] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so" to ""\n'}
+[31.596979] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[31.597683] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl\n'}
+[31.598364] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[31.599210] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv\n'}
+[31.599850] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg\n'}
+[31.600498] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg\n'}
+[31.601080] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[31.601680] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[31.602357] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[31.603273] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[31.604115] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[31.605182] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[31.606088] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[31.607169] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[31.608290] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[31.609122] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[31.611301] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[31.612192] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[31.612970] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[31.613567] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/Desktop/ros2_dashing_tutorials/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[31.624224] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[31.685541] (-) TimerEvent: {}
+[31.795028] (-) TimerEvent: {}
+[31.913731] (-) TimerEvent: {}
+[32.016011] (-) TimerEvent: {}
+[32.116946] (-) TimerEvent: {}
+[32.217634] (-) TimerEvent: {}
+[32.323566] (-) TimerEvent: {}
+[32.429429] (-) TimerEvent: {}
+[32.525135] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[32.528942] (-) EventReactorShutdown: {}
